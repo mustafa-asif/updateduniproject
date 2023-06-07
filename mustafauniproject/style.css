@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(198, 198, 198);
+
+}
+
+header{
+    display: flex;
+    background-color: rgb(37, 36, 36);
+    color: rgb(0, 47, 160);
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2em;
+    /* position: sticky; */
+    top: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#logo{
+    background-color: #00ff;
+    color: aliceblue;
+    padding: 6px;
+    padding-left: 70px;
+   padding-right: 70px;
+    border-radius:  75% 0 75% 0;
+}
+
+
+main{
+    background-color:  rgb(186, 139, 139);
+}
+
+
+#hotelcards{
+    display: flex;
+}
+
+ul{
+    display: flex;
+}
+li{
+    /* display: block; */
+    padding: 10px;
+    margin: 10px;
+    
+    
+}
+
+li>p{
+    padding-left: 15px;
+    font-weight: bolder ;
+    font-size: 2em;
+}
+
+.hotels{
+    background-color: rgb(232, 221, 221);
+    max-width: 300px;
+    border-radius: 10%;
+}
+
+
+
+
+#about{
+    color: aliceblue;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+
+#about-card{
+    background-color: rgb(198, 198, 198);
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.1em;
+    word-spacing: 0.5em;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    color: aliceblue;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    padding: 10px;
+}
+
+.card{
+    /* background-color: rgb(198, 198, 198); */
+    border-radius: 10%;
+    object-fit: cover;
+    margin-right:20px ;
+    margin-bottom:20px ;
+}
+
+
+#cards{
+    display: flex;
+}
